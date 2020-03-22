@@ -44,6 +44,8 @@ public class DeviceKeysConstants {
         NOTIFICATIONS,
         QS_PANEL,
         RINGER_MODES,
+        MEDIA_NEXT,
+        MEDIA_PREVIOUS,
         SINGLE_HAND_LEFT,
         SINGLE_HAND_RIGHT;
 

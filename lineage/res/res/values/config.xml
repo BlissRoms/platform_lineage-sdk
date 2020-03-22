@@ -169,6 +169,8 @@
             15 - Notifications
             16 - Toggle Qs Panel
             17 - Ringer Modes
+            18 - Next Song
+            19 - Previous Song
          This needs to match the enums in
          sdk/src/java/org/lineageos/internal/util/DeviceKeysConstants.java.
     -->
@@ -193,6 +195,8 @@
             15 - Notifications
             16 - Toggle Qs Panel
             17 - Ringer Modes
+            18 - Next Song
+            19 - Previous Song
          This needs to match the enums in
          sdk/src/java/org/lineageos/internal/util/DeviceKeysConstants.java.
     -->
@@ -217,6 +221,8 @@
             15 - Notifications
             16 - Toggle Qs Panel
             17 - Ringer Modes
+            18 - Next Song
+            19 - Previous Song
          This needs to match the enums in
          sdk/src/java/org/lineageos/internal/util/DeviceKeysConstants.java.
     -->
@@ -241,6 +247,8 @@
             15 - Notifications
             16 - Toggle Qs Panel
             17 - Ringer Modes
+            18 - Next Song
+            19 - Previous Song
          This needs to match the enums in
          sdk/src/java/org/lineageos/internal/util/DeviceKeysConstants.java.
     -->
@@ -265,6 +273,8 @@
             15 - Notifications
             16 - Toggle Qs Panel
             17 - Ringer Modes
+            18 - Next Song
+            19 - Previous Song
          This needs to match the enums in
          sdk/src/java/org/lineageos/internal/util/DeviceKeysConstants.java.
     -->
