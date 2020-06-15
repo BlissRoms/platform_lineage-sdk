@@ -68,6 +68,7 @@ public class NetworkTraffic extends TextView {
     private static final int MODE_UPSTREAM_AND_DOWNSTREAM = 0;
     private static final int MODE_UPSTREAM_ONLY = 1;
     private static final int MODE_DOWNSTREAM_ONLY = 2;
+    private static final int MODE_DYNAMIC = 3;
 
     private static final int MESSAGE_TYPE_PERIODIC_REFRESH = 0;
     private static final int MESSAGE_TYPE_UPDATE_VIEW = 1;
@@ -199,6 +200,8 @@ public class NetworkTraffic extends TextView {
                     mMode == MODE_UPSTREAM_ONLY || mMode == MODE_UPSTREAM_AND_DOWNSTREAM;
             final boolean showDownstream =
                     mMode == MODE_DOWNSTREAM_ONLY || mMode == MODE_UPSTREAM_AND_DOWNSTREAM;
+            final boolean dynamic =
+                    mMode == MODE_DYNAMIC;
             final boolean aboveThreshold = (showUpstream && mTxKbps > mAutoHideThreshold)
                     || (showDownstream && mRxKbps > mAutoHideThreshold);
             mIsActive = enabled && mAttached && (!mAutoHide || (mConnectionAvailable && aboveThreshold));
@@ -209,6 +212,9 @@ public class NetworkTraffic extends TextView {
             if (mIsActive) {
                 CharSequence output = "";
                 if (showUpstream && showDownstream) {
+                    output = formatOutput(mTxKbps) + "\n" + formatOutput(mRxKbps);
+                    submode = MODE_UPSTREAM_AND_DOWNSTREAM;
+                } else if(dynamic) {
                     if (mTxKbps > mRxKbps) {
                         output = formatOutput(mTxKbps);
                         submode = MODE_UPSTREAM_ONLY;
@@ -460,6 +466,8 @@ public class NetworkTraffic extends TextView {
         final Drawable drawable;
 
         if (!mHideArrows && mMode == MODE_UPSTREAM_AND_DOWNSTREAM) {
+            drawableResId = R.drawable.stat_sys_network_traffic_updown;
+        } else if (!mHideArrows && mMode == MODE_DYNAMIC) {
             if (mSubMode == MODE_DOWNSTREAM_ONLY) {
                 drawableResId = R.drawable.stat_sys_network_traffic_down;
             } else if (mSubMode == MODE_UPSTREAM_ONLY) {
