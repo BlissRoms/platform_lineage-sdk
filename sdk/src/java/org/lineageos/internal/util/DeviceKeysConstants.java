@@ -44,6 +44,8 @@ public class DeviceKeysConstants {
         NOTIFICATIONS,
         QS_PANEL,
         RINGER_MODES,
+        SKIP_SONG,
+        PREVIOUS_SONG,
         SINGLE_HAND_LEFT,
         SINGLE_HAND_RIGHT;
 

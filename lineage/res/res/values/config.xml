@@ -168,6 +168,8 @@
             15 - Notifications
             16 - Toggle Qs Panel
             17 - Ringer Modes
+            18 - Skip song
+            19 - Previous song
          This needs to match the enums in
          sdk/src/java/org/lineageos/internal/util/DeviceKeysConstants.java.
     -->
@@ -192,6 +194,8 @@
             15 - Notifications
             16 - Toggle Qs Panel
             17 - Ringer Modes
+            18 - Skip song
+            19 - Previous song
          This needs to match the enums in
          sdk/src/java/org/lineageos/internal/util/DeviceKeysConstants.java.
     -->
@@ -216,6 +220,8 @@
             15 - Notifications
             16 - Toggle Qs Panel
             17 - Ringer Modes
+            18 - Skip song
+            19 - Previous song
          This needs to match the enums in
          sdk/src/java/org/lineageos/internal/util/DeviceKeysConstants.java.
     -->
@@ -240,6 +246,8 @@
             15 - Notifications
             16 - Toggle Qs Panel
             17 - Ringer Modes
+            18 - Skip song
+            19 - Previous song
          This needs to match the enums in
          sdk/src/java/org/lineageos/internal/util/DeviceKeysConstants.java.
     -->
@@ -264,6 +272,8 @@
             15 - Notifications
             16 - Toggle Qs Panel
             17 - Ringer Modes
+            18 - Skip song
+            19 - Previous song
          This needs to match the enums in
          sdk/src/java/org/lineageos/internal/util/DeviceKeysConstants.java.
     -->
