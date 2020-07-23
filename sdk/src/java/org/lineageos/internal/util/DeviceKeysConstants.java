@@ -39,6 +39,8 @@ public class DeviceKeysConstants {
         CLOSE_APP,
         TORCH,
         SCREENSHOT,
+        SCREENSHOT_PARTIAL,
+        SCREENSHOT_LONG,
         VOLUME_PANEL,
         CLEAR_ALL_NOTIFICATIONS,
         NOTIFICATIONS,
