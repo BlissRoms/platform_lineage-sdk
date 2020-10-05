@@ -170,4 +170,12 @@
 
     <!-- Notch -->
     <java-symbol type="bool" name="config_haveNotch" />
+
+    <!-- Whether to cleanup fingerprints upon connection to the daemon and when
+         user switches -->
+    <java-symbol type="bool" name="config_cleanupUnusedFingerprints" />
+
+    <!-- Whether to notify fingerprint client of successful cancelled authentication
+         (needed for some older vendor fingerprint HAL implementations) -->
+    <java-symbol type="bool" name="config_fingerprintPostResetRunnableForAllClients" />
 </resources>
