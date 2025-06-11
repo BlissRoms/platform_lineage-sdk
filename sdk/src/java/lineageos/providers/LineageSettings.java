@@ -371,6 +371,9 @@ public final class LineageSettings {
     private static final Validator sSecondsFromMidnightValidator =
             new InclusiveIntegerRangeValidator(0, 86400);
 
+    private static final Validator sHardwareKeyActionvalidator =
+            new InclusiveIntegerRangeValidator(0, 11);
+
     private static final Validator sAlwaysTrueValidator = new Validator() {
         @Override
         public boolean validate(String value) {
@@ -1090,6 +1093,7 @@ public final class LineageSettings {
          * 15 - Notifications
          * 16 - Toggle Qs Panel
          * 17 - Ringer Modes
+         * 18 - Play/pause music
          */
         public static final String KEY_HOME_LONG_PRESS_ACTION = "key_home_long_press_action";
 
