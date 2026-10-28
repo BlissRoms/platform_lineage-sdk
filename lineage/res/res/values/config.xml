@@ -164,9 +164,14 @@
             9 - Toggle split screen
             10 - Kill foreground app
             11 - Play/pause music playback
-            12 - Screenshot
-            13 - Partial screenshot
-            14 - Cycle ringer mode
+            12 - Torch
+            13 - Screenshot
+            14 - Partial screenshot
+            15 - Volume panel
+            16 - Clear all notifications
+            17 - Notifications panel
+            18 - Expand QS panel
+            19 - Cycle ringer mode
          This needs to match the enums in
          sdk/src/java/org/lineageos/internal/util/DeviceKeysConstants.java.
     -->
@@ -185,9 +190,14 @@
             9 - Toggle split screen
             10 - Kill foreground app
             11 - Play/pause music playback
-            12 - Screenshot
-            13 - Partial screenshot
-            14 - Cycle ringer mode
+            12 - Torch
+            13 - Screenshot
+            14 - Partial screenshot
+            15 - Volume panel
+            16 - Clear all notifications
+            17 - Notifications panel
+            18 - Expand QS panel
+            19 - Cycle ringer mode
          This needs to match the enums in
          sdk/src/java/org/lineageos/internal/util/DeviceKeysConstants.java.
     -->
@@ -206,9 +216,14 @@
             9 - Toggle split screen
             10 - Kill foreground app
             11 - Play/pause music playback
-            12 - Screenshot
-            13 - Partial screenshot
-            14 - Cycle ringer mode
+            12 - Torch
+            13 - Screenshot
+            14 - Partial screenshot
+            15 - Volume panel
+            16 - Clear all notifications
+            17 - Notifications panel
+            18 - Expand QS panel
+            19 - Cycle ringer mode
          This needs to match the enums in
          sdk/src/java/org/lineageos/internal/util/DeviceKeysConstants.java.
     -->
@@ -227,9 +242,14 @@
             9 - Toggle split screen
             10 - Kill foreground app
             11 - Play/pause music playback
-            12 - Screenshot
-            13 - Partial screenshot
-            14 - Cycle ringer mode
+            12 - Torch
+            13 - Screenshot
+            14 - Partial screenshot
+            15 - Volume panel
+            16 - Clear all notifications
+            17 - Notifications panel
+            18 - Expand QS panel
+            19 - Cycle ringer mode
          This needs to match the enums in
          sdk/src/java/org/lineageos/internal/util/DeviceKeysConstants.java.
     -->
@@ -248,9 +268,14 @@
             9 - Toggle split screen
             10 - Kill foreground app
             11 - Play/pause music playback
-            12 - Screenshot
-            13 - Partial screenshot
-            14 - Cycle ringer mode
+            12 - Torch
+            13 - Screenshot
+            14 - Partial screenshot
+            15 - Volume panel
+            16 - Clear all notifications
+            17 - Notifications panel
+            18 - Expand QS panel
+            19 - Cycle ringer mode
          This needs to match the enums in
          sdk/src/java/org/lineageos/internal/util/DeviceKeysConstants.java.
     -->
@@ -269,9 +294,14 @@
             9 - Toggle split screen
             10 - Kill foreground app
             11 - Play/pause music playback
-            12 - Screenshot
-            13 - Partial screenshot
-            14 - Cycle ringer mode
+            12 - Torch
+            13 - Screenshot
+            14 - Partial screenshot
+            15 - Volume panel
+            16 - Clear all notifications
+            17 - Notifications panel
+            18 - Expand QS panel
+            19 - Cycle ringer mode
          This needs to match the enums in
          sdk/src/java/org/lineageos/internal/util/DeviceKeysConstants.java.
     -->
@@ -290,9 +320,14 @@
             9 - Toggle split screen
             10 - Kill foreground app
             11 - Play/pause music playback
-            12 - Screenshot
-            13 - Partial screenshot
-            14 - Cycle ringer mode
+            12 - Torch
+            13 - Screenshot
+            14 - Partial screenshot
+            15 - Volume panel
+            16 - Clear all notifications
+            17 - Notifications panel
+            18 - Expand QS panel
+            19 - Cycle ringer mode
          This needs to match the enums in
          sdk/src/java/org/lineageos/internal/util/DeviceKeysConstants.java.
     -->
