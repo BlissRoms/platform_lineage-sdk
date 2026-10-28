@@ -34,7 +34,6 @@ public class DeviceKeysConstants {
         CLEAR_ALL_NOTIFICATIONS,
         NOTIFICATIONS,
         QS_PANEL,
-        RINGER_MODES,
         CYCLE_RINGER_MODE;
 
         public static Action fromIntSafe(int id) {
